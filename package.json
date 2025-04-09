@@ -2,9 +2,12 @@
   "name": "playwright-test",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@playwright/test": "^1.51.1",
+    "@types/bun": "latest",
+    "@types/node": "^22.14.0"
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "scripts": {}
 }
